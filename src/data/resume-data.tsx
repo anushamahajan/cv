@@ -20,247 +20,169 @@ import {
 import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
-  name: "Chaitanya Anand",
-  initials: "CA",
+  name: "Anusha Mahajan",
+  initials: "AM",
   location: "Delhi, India",
   locationLink: "https://www.google.com/maps/place/Delhi",
-  about:
-    "Creative problem solver with a passion for Web Development",
+  about: "Curious human who builds, breaks, and rebuilds things to create data-driven products that users actually love.",
   summary:
-    "I am a Full-Stack Developer with a passion for building user-friendly and impactful web applications. I am skilled in leveraging AI and modern frameworks (Next.js, React.js) to create solutions that empower businesses and individuals. I am capable of managing large teams and effectively assign work.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/92747604",
-  personalWebsiteUrl: "https://chaitanyanand.vercel.app/",
+    "I build products because I like seeing ideas turn into things people actually use. From AI automations to scrappy MVPs, I’ve worked on defining KPIs, running experiments, mapping user funnels, setting up analytics, and figuring out why users do what they do. I’ve learned that great products aren’t built through big launches but through small iterations, feature prioritization, feedback loops, quick tests, and endless curiosity. What keeps me going is that mix of data, instinct, and the thrill of making something a little better every single time.",
+  avatarUrl: "https://avatars.githubusercontent.com/u/116106599",
+  personalWebsiteUrl: "https://anushamahajan.github.io/Portfolio/",
   contact: {
-    email: "chaitanya.anand@gmail.com",
-    tel: "+91 9711091823",
+    email: "anushamahajan2304@gmail.com",
+    tel: "+91 9873848895",
     social: [
       {
         name: "GitHub",
-        url: "https://github.com/ultigendlemate",
+        url: "https://github.com/anushamahajan",
         icon: GitHubIcon,
       },
       {
         name: "LinkedIn",
-        url: "https://www.linkedin.com/in/chaitanyanand",
+        url: "https://www.linkedin.com/in/anushamahajan",
         icon: LinkedInIcon,
       },
-   
     ],
   },
   education: [
     {
-      school: "Delhi Technological University",
-      degree: "Bachelor's Degree in Electronics & Communication",
-      start: "2021",
-      end: "2025",
+      school: "Indira Gandhi Delhi Technical University for Women (IGDTUW)",
+      degree: "Bachelor of Technology, Mechanical and Automation Engineering",
+      start: "2022",
+      end: "2026",
     },
   ],
   work: [
     {
-      company: "Hyperleap Software Technologies",
+      company: "Hyperleap AI",
       link: "https://hyperleap.ai",
       badges: ["Remote"],
-      title: "Software Developer Intern",
-      start: "April 2024",
+      title: "Product Growth Intern",
+      start: "June 2025",
       end: "Present",
       description:
-        "Developed a high-performance multi-modal chat interface using React.js and Redux, driving a 30% increase in adoption. Also led the redesign of the admin console, enhancing LLM management and Developer Experience, and implemented agentic workflows using Semantic Kernel with C#, significantly improving overall UX.",
+        "Worked on AI agent workflows, automation pipelines, onboarding flows, user funnels, KPI dashboards, and GA setup. Improved reporting efficiency by 70% through automated dashboards and feedback-driven iteration. Managed inbound funnels, PRDs, case studies, and marketing website analytics while experimenting with 10,000+ AI tools across n8n, Zapier, and custom LLM stacks.",
     },
     {
-      company: "Carboledger",
-      link: "https://carboledger.com",
+      company: "Prana AI",
+      link: "https://prana-ai.com/",
       badges: ["Remote"],
-      title: "Full Stack Developer",
-      start: "June 2023",
-      end: "July 2023",
+      title: "Product Management Intern",
+      start: "March 2025",
+      end: "May 2025",
       description:
-        "Migrated the entire blog ecosystem from Next.js to WordPress, enhancing content management for non-technical staff and resulting in an 80% increase in efficiency. Integrated HubSpot into the platform, leading to a 20% increase in qualified leads, and improved the blog's design and SEO, doubling average page views from 2,000 to 4,000 within the first month.",
+        "Built a healthtech MVP with a facial wellness scanner that delivers accurate metrics (BP, HbA1c, heart rate) in under a minute. Handled user testing, pilot tracking, feature prioritization, documentation, and third-party integrations. Collaborated cross-functionally to define success KPIs and optimize workflows — improving deployment efficiency by 25%.",
+    },
+    {
+      company: "Defence Research and Development Organisation (DRDO)",
+      badges: ["Onsite"],
+      title: "Research Intern",
+      start: "June 2024",
+      end: "August 2024",
+      description:
+        "Worked on research around the airdropping of ammunition systems, exploring parameters that impact accuracy and efficiency. Conducted detailed root cause analysis to identify process gaps and performance limits. Proposed methods to improve reliability by 25% and reduce material wastage by 30%.",
     },
   ],
   skills: [
-    "Python",
-    "C++",
-    "JavaScript",
-    "TypeScript",
-    "React/Next.js",
-    "Tailwind CSS",
-    "Node.js",
-    "DSA",
-    "MongoDB",
-    "PostgreSQL",
-    "Firebase",
-    "Redux",
-    "Supabase",
-    "Prisma",
-    "Drizzle",
-    "Wordpress",
+    // Core Product Skills
+    "Product Management",
+    "User Funnels",
+    "Feature Prioritization",
+    "A/B Testing",
+    "Agile Development",
+  
+    // Analytics & Data
+    "Data Analytics",
+    "SQL",
+    "Python (pandas, numpy, matplotlib)",
+    "Google Analytics",
+    "Mixpanel",
+    "Power BI",
+    "Tableau",
+    "SPSS",
+  
+    // Automation & AI
+    "Workflow Automation",
+    "Prompt Engineering",
+    "n8n",
+    "Zapier",
+    "Airtable",
+    "APIs and Integrations",
+    "GenAI Tools",
+  
+    // Design & Web
+    "HTML/CSS/Js",
+    "Wireframing",
+
+    // Project & Collaboration Tools
+    "Jira",
+    "Notion",
+    "Trello",
+    "Confluence",
+    "ClickUp",
+  
+  
   ],
+  
   projects: [
     {
-      title: "Sneakace",
-      techStack: [
-        // "Side Project",
-        "Firebase",
-        "Next.js",
-        "MongoDB",
-        "Ecommerce",
-        // "WebRTC",
-      ],
-      description: "Ecommerce platform for selling premium laces for sneakers.",
-      logo: ConsultlyLogo,
-      link: {
-        label: "Sneakace",
-        href: "https://sneakace.com/",
-      },
-    },
-    {
-      title: "Shortenn",
-      techStack: [
-        // "Side Project",
-        "TypeScript",
-        "Next.js",
-        "Supabase",
-        "PostgreSQL",
-        // "WebRTC",
-      ],
-      description: "Url shortener with added capabilities to edit/delete links and view analytics.",
-      logo: ConsultlyLogo,
-      link: {
-        label: "shortenn.me",
-        href: "https://shortenn.me/",
-      },
-    },
-    {
-      title: "TourCraft",
-      techStack: ["Next.js", "Generative AI","MongoDB"],
-      description:
-        "Dynamic tour planner for travel enthusiasts. Create customised travel plans in seconds.",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://github.com/UltigendLemate/tourcraft",
-      },
-    },
-    {
-      title: "Auto Apply Wellfound",
-      techStack: ["Automation", "Python", "Selenium", "Script","Gemini"],
-      description:
-        "Auto apply to jobs on wellfound.com with a custom cover letter.",
-      logo: MonitoLogo,
-      link: {
-        // label: "monito.dev",
-        href: "https://github.com/UltigendLemate/wellfound-autoapply",
-      },
-    },
-    {
-      title: "Fresources",
-      techStack: ["Community", "Next.js", "Prisma", "PostgreSQL"],
-      description:
-        "Platform for efficient access to curated, syllabus-relevant academic resources for college students.",
-      logo: Minimal,
-      link: {
-        href: "https://fresources.tech/",
-      },
+      title: "AltHealth",
+      techStack: ["Next.js", "MongoDB", "Firebase", "Analytics", "User Funnels"],
+      description: "AI tool that scans product labels and explains ingredients with safer alternatives.",
+      link: { label: "AltHealth Demo", href: "https://www.youtube.com/shorts/tJ_MSf7aPXQ" },
     },
     {
       title: "QuikPlanr",
-      techStack: ["Hackathon Project", "Next.js", "Generative AI","Supabase"],
-      description:
-        "Turn your 2-liner-ideas into actionable plans in seconds.",
-      logo: JarockiMeLogo,
-      link: {
-        label: "github.com",
-        href: "https://devfolio.co/projects/quikplanr-5f4f",
-      },
+      techStack: ["Next.js", "TypeScript", "Supabase", "PostgreSQL"],
+      description: "Turns quick ideas into complete, data-backed product plans within minutes.",
+      link: { label: "QuikPlanr GitHub", href: "https://quikplanr.onrender.com/" },
     },
     {
-      title: "Incoming India",
-      techStack: [ "Next.js", "Typescript"],
-      description:
-        "Portfolio website targetting inbound travellers.",
-      // logo: Howdy,
-      link: {
-        // label: "play.google.com",
-        href: "https://incomingindia.co.in/",
-      },
+      title: "Virtus",
+      techStack: ["Figma", "Generative AI", "Wireframing", "KPI Dashboards"],
+      description: "All-in-one platform for managing and strategizing financial planning.",
+      link: { label: "Virtus", href: "https://www.figma.com/proto/FawYUhpxipm08O3LsVWlmR/Untitled--Copy-?node-id=3-422&node-type=canvas&t=iIky2zKzPpHKGyxt-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1" },
     },
-
     {
-      title: "Synapse",
-      techStack: [ "Next.js", "Drizzle","Socket.io","Quill","Typescript"],
-      description:
-        "A web-app with combined features of Notion and Google Docs.",
+      title: "AssessAI",
+      techStack: ["Figma", "Wireframing", "Prompt Engineering", "ML Mapping"],
+      description: "Tracks learning patterns and suggests focus areas to improve student performance.",
+      link: { label: "AssessAI", href: "https://www.figma.com/proto/dKyzDFw2tYaDijvl5J1jG2/SIH--Copy-?node-id=2-12291&node-type=canvas&t=aUtIIySN1hUqwfp2-1&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=2%3A12291&show-proto-sidebar=1" },
+    },
+    {
+      title: "GenMart",
+      techStack: ["Figma", "GenAi", "Prompting"," Personalization Algos"],
+      description: "Personalized shopping assistant offering smart, tailored product recommendations.",
+      link: { label: "Genmart", href: "https://www.figma.com/design/5VwoVC0K8GrF1dRwIIBC6u/Untitled?node-id=0-1&t=iIJWMfkD8SfzZCbb-1" },
+    },
+    {
+      title: "RapiDoc",
+      techStack: ["Next.js", "Supabase", "APIs", "Analytics"],
+      description: "Real-time health service tracker showing nearby hospitals and availability.",
+      link: { label: "Rapidoc", href: "https://rapidoc.netlify.app/" },
+    },
+    {
+      title: "CB Hospitality",
+      techStack: ["Next.js", "TypeScript", "SEO"],
+      description: "Portfolio website built to improve engagement and conversions for a culinary brand.",
+      link: { href: "https://www.cbhospitality.org/" },
+    },
+    {
+      title: "Fresources",
+      techStack: ["Next.js", "MS CLarity", "Google Analytics", "Typescript"],
+      description: "Collaborative workspace combining docs, notes, and real-time editing for students.",
       logo: BarepapersLogo,
-      link: {
-        // label: "barepapers.com",
-        href: "https://www.linkedin.com/posts/chaitanyanand_level-up-your-workflow-my-journey-of-building-activity-7148726982850019328-QuJj/"
-      },
+      link: { href: "https://fresources.tech/" },
     },
     {
-      title: "Growth Rocket",
-      techStack: ["TypeScript", "Next.js"],
-      description: "Portfolio website for social media agency.",
+      title: "Broward Mobile Notary",
+      techStack: ["Next.js", "TypeScript"],
+      description: "Responsive brand website improving visibility and user engagement for a service firm.",
       logo: YearProgressLogo,
-      link: {
-        // label: "getyearprogress.com",
-        href: "https://growthrocket.media/",
-      },
+      link: { href: "https://www.browardexpressnotary.com/" },
     },
-    {
-      title: "Sky Uniforms",
-      techStack: [
-        "Wordpress",
-
-      ],
-      description:
-        "Boosting online presence for apparels manufacturing company.",
-      // logo: ParabolLogo,
-      link: {
-        // label: "github.com",
-        href: "https://skyuniforms.in/",
-      },
-    },
-    {
-      title: "Forward Education",
-      techStack: [
-        // "Next.js",
-
-        "SEO",
-        "React",
-        // "Node.js",
-        // "GraphQL",
-      ],
-      description:
-        "Increasing conversions for the educational institute based in Delhi.",
-      // logo: EvercastLogo,
-      link: {
-        // label: "evercast.us", 
-        href: "https://forwardeducation.co.in/",
-      },
-    },
-    {
-      title: "Hammer",
-      techStack: ["Lead Developer", "Wordpress"],
-      description:
-        "Users can check archive magazines and read in a 3d flipbook format.",
-      // logo: MobileVikingsLogo,
-      link: {
-        // label: "mobilevikings.pl",
-        href: "https://hammer.co.in",
-      },
-    },
-    {
-      title: "Reliable Chemtech",
-      techStack: ["Next.js", "Typescript","Tailwind CSS"],
-      description:
-        "Portfolio website for chemical importing/ exporting/ manufacturing company.",
-      // logo: MobileVikingsLogo,
-      link: {
-        // label: "mobilevikings.pl",
-        href: "https://hammer.co.in",
-      },
-    },
-
-    
-  ],
+  ]
+  
+  
 } as const;
