@@ -76,6 +76,7 @@ export const RESUME_DATA = {
     },
     {
       company: "Defence Research and Development Organisation (DRDO)",
+      link: "#",
       badges: ["Onsite"],
       title: "Research Intern",
       start: "June 2024",
