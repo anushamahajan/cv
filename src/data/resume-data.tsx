@@ -54,13 +54,26 @@ export const RESUME_DATA = {
     },
   ],
   work: [
+
+    {
+      company: "Fabric AI",
+      link: "https://fabrichq.ai/",
+      badges: ["Bengaluru, India"],
+      title: "Product Management Intern",
+      start: "October 2025",
+      end: "March 2026",
+      description:
+        "Drove improvements in AI interview funnels by analyzing drop-offs and KPI’s via UTM data and PostHog and shipping features with developers that cut churn by 20% increasing candidate activation and interview starts. Built an internal tools like an AI-powered Slack-to-Jira issue intelligence system using 3-layer prompt pipelines (Classifier → Follow-up → Analyzer) that reduced response time from 2-3 days to <5 minutes.",
+    },
+    
+    
     {
       company: "Hyperleap AI",
       link: "https://hyperleap.ai",
       badges: ["Remote"],
       title: "Product Growth Intern",
       start: "June 2025",
-      end: "Present",
+      end: "August 2025",
       description:
         "Worked on AI agent workflows, automation pipelines, onboarding flows, user funnels, KPI dashboards, and GA setup. Improved reporting efficiency by 70% through automated dashboards and feedback-driven iteration. Managed inbound funnels, PRDs, case studies, and marketing website analytics while experimenting with 10,000+ AI tools across n8n, Zapier, and custom LLM stacks.",
     },
@@ -92,17 +105,16 @@ export const RESUME_DATA = {
     "Feature Prioritization",
     "A/B Testing",
     "Agile Development",
-  
+
     // Analytics & Data
     "Data Analytics",
     "SQL",
     "Python (pandas, numpy, matplotlib)",
     "Google Analytics",
     "Mixpanel",
-    "Power BI",
-    "Tableau",
-    "SPSS",
-  
+    "PostHog",
+    "UTM Tracking",
+
     // Automation & AI
     "Workflow Automation",
     "Prompt Engineering",
@@ -111,10 +123,27 @@ export const RESUME_DATA = {
     "Airtable",
     "APIs and Integrations",
     "GenAI Tools",
-  
+    "OpenAI",
+    "Claude",
+
+    // Communication
+    "Communication",
+    "Presentation Skills",
+    "Public Speaking",
+    "Written Communication",
+    "Verbal Communication",
+    "Listening Skills",
+    "Empathy",
+    "Collaboration",
+    "Client Management",
+    "Client Communication",
+    "Client Retention",
+
     // Design & Web
     "HTML/CSS/Js",
     "Wireframing",
+    "Stitch",
+    "Canva",
 
     // Project & Collaboration Tools
     "Jira",
@@ -122,11 +151,25 @@ export const RESUME_DATA = {
     "Trello",
     "Confluence",
     "ClickUp",
-  
-  
+    "Slack",
+
   ],
-  
+
   projects: [
+    {
+      title: "AI Issue Intelligence System",
+      techStack: ["Slack Bot", "OpenAI", "Jira API", "Prompt Engineering", "n8n"],
+      description: " Tool that captures bugs and feature requests from Slack, enriches missing context automatically, and auto-creates structured Jira tickets",
+      link: { label: "Link to Pitch Deck", href: "https://drive.google.com/file/d/1SDHCNkWkAvJARWORza0-gbVeNzk9fRHg/view?usp=sharing" },
+    },
+
+    {
+      title: "Social Media Automation Engine",
+      techStack: ["n8n", "Hyperleap AI", "Airtable", "OpenAI", "Claude"],
+      description: "Automation engine that generates platform native content (LinkedIn, Insta, X, Fb) + AI generated images & posts across all 4 platforms in 1 click.",
+      link: { label: "Link to Pitch Deck", href: "https://drive.google.com/file/d/1SDHCNkWkAvJARWORza0-gbVeNzk9fRHg/view?usp=sharing" },
+    },
+
     {
       title: "AltHealth",
       techStack: ["Next.js", "MongoDB", "Firebase", "Analytics", "User Funnels"],
@@ -153,7 +196,7 @@ export const RESUME_DATA = {
     },
     {
       title: "GenMart",
-      techStack: ["Figma", "GenAi", "Prompting"," Personalization Algos"],
+      techStack: ["Figma", "GenAi", "Prompting", " Personalization Algos"],
       description: "Personalized shopping assistant offering smart, tailored product recommendations.",
       link: { label: "Genmart", href: "https://www.figma.com/design/5VwoVC0K8GrF1dRwIIBC6u/Untitled?node-id=0-1&t=iIJWMfkD8SfzZCbb-1" },
     },
@@ -184,6 +227,6 @@ export const RESUME_DATA = {
       link: { href: "https://www.browardexpressnotary.com/" },
     },
   ]
-  
-  
+
+
 } as const;
