@@ -17,7 +17,7 @@ import {
   TastyCloudLogo,
   YearProgressLogo,
 } from "@/images/logos";
-import { GitHubIcon, LinkedInIcon, XIcon } from "@/components/icons";
+import { GitHubIcon, LinkedInIcon, ResumeIcon, XIcon } from "@/components/icons";
 
 export const RESUME_DATA = {
   name: "Anusha Mahajan",
@@ -42,6 +42,11 @@ export const RESUME_DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/anushamahajan",
         icon: LinkedInIcon,
+      },
+      {
+        name: "Resume",
+        url: "https://drive.google.com/file/d/1tU9i_kNSc_s3MENNbbufzl5beaQEt5BL/view?usp=sharing",
+        icon: ResumeIcon,
       },
     ],
   },
